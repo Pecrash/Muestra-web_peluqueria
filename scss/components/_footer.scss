@@ -28,6 +28,13 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: 35px;
+            &-icon {
+                svg {
+                    path {
+                        fill: var(--dorado);
+                    }
+                }
+            }
         }
     }
 }

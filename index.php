@@ -42,10 +42,10 @@
             </article>
         </div>
         <div class="secInitial__media">
-            <a href="" class="secInitial__media-icon"><img src="./assets/social_icons/facebook.svg" alt=""></a>
-            <a href="" class="secInitial__media-icon"><img src="./assets/social_icons/twitter.svg" alt=""></a>
-            <a href="" class="secInitial__media-icon"><img src="./assets/social_icons/instagram.svg" alt=""></a>
-            <a href="" class="secInitial__media-icon"><img src="./assets/social_icons/linkedin.svg" alt=""></a>
+            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/facebook.php') ?></a>
+            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/twitter.php') ?></a>
+            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/instagram.php') ?></a>
+            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/linkedin.php') ?></a>
         </div>
     </section>
 

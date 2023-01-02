@@ -2,10 +2,10 @@
     <article class="secFooter__content">
         <h1 class="secFooter__content-tittle">Networks</h1>
         <div class="secFooter__content-media">
-            <a href=""><img src="../assets/social_icons/facebook.svg" alt=""></a>
-            <a href=""><img src="../assets/social_icons/instagram.svg" alt=""></a>
-            <a href=""><img src="../assets/social_icons/twitter.svg" alt=""></a>
-            <a href=""><img src="../assets/social_icons/linkedin.svg" alt=""></a>
+            <a href="" class="secFooter__content-media-icon"><?php require('./assets/social_icons/facebook.php') ?></a>
+            <a href="" class="secFooter__content-media-icon"><?php require('./assets/social_icons/twitter.php') ?></a>
+            <a href="" class="secFooter__content-media-icon"><?php require('./assets/social_icons/instagram.php') ?></a>
+            <a href="" class="secFooter__content-media-icon"><?php require('./assets/social_icons/linkedin.php') ?></a>
         </div>
     </article>
     <article class="secFooter__content">

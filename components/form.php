@@ -29,7 +29,7 @@
         </div>
 
         <div class="secForm__form-input">
-            <span class="secForm__form-input-icon"><img src="../assets/form_icons/message.svg" alt=""></span>
+            <span class="secForm__form-input-icon-area"><img src="../assets/form_icons/message.svg" alt=""></span>
             <textarea name="" id="" placeholder="YOUR MESSAGE"></textarea>
         </div>
         <div class="secForm__form-submit">

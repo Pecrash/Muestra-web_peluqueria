@@ -1,118 +1,195 @@
-.secForm {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	width: 100vw;
-	background-color: var(--azul-oscuro);
-	padding-bottom: 2.5rem;
-	&__tittle {
-		font-size: 2em;
-		text-align: center;
-		width: 50%;
-		margin-top: 45px;
-		color: white;
-		position: relative;
-		&::after {
-			content: "";
-			position: absolute;
-			bottom: -6px;
-			left: 50%;
-			transform: translatex(-50%);
-			width: 40%;
-			height: 3px;
-			background-color: var(--dorado);
-		}
-	}
-	&__form {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(5, 1fr) 2.5fr;
-		width: 100%;
-		height: 510px;
-		margin-top: 80px;
-		gap: 1.5rem;
-		text-align: center;
-		justify-items: center;
-		&-input {
-			width: 80%;
+@use '../abstracts/breakpoints' as *;
+
+/* *****************************
+___________PHONE_____________
+***************************** */
+
+@include media-up(phone) {
+	.secForm {
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100vw;
+		background-color: var(--azul-oscuro);
+		padding-bottom: 2.5rem;
+		&__tittle {
+			font-size: 2em;
 			text-align: center;
-			grid-row: auto;
+			width: 50%;
+			margin-top: 45px;
+			color: white;
 			position: relative;
-			input {
-				border: 3px solid var(--gris);
-				color: white;
-				background-color: var(--azul-oscuro);
-				width: 80%;
-				height: 100%;
-				outline: 0;
-				padding: 0 42px 0 10px;
-				&::placeholder {
-					color: white;
-				}
-				&[type="date"]::-webkit-calendar-picker-indicator {
-					width: 100%;
-					height: 100%;
-					position: absolute;
-					top: 0;
-					left: 0;
-					color: transparent;
-					background: 0 0;
-					margin: 0;
-					opacity: 0;
-					pointer-events: auto;
-				}
-				&[type="time"]::-webkit-calendar-picker-indicator {
-					width: 100%;
-					height: 100%;
-					position: absolute;
-					top: 0;
-					left: 0;
-					color: transparent;
-					background: 0 0;
-					margin: 0;
-					opacity: 0;
-					pointer-events: auto;
-				}
-			}
-			textarea {
-				border: 3px solid var(--gris);
-				color: white;
-				background-color: var(--azul-oscuro);
-				width: 80%;
-				height: 100%;
-				padding: 0 42px 0 10px;
-				outline: 0;
-				&::placeholder {
-					color: white;
-				}
-			}
-			&-icon {
+			&::after {
+				content: "";
 				position: absolute;
-				top: 25%;
-				right: 7%;
-				&-area {
-					position: absolute;
-					top: 10%;
-					right: 7%;
-				}
+				bottom: -6px;
+				left: 50%;
+				transform: translatex(-50%);
+				width: 40%;
+				height: 3px;
+				background-color: var(--dorado);
 			}
 		}
-		&-submit {
-			width: 12.5rem;
-			height: 50px;
-			margin-top: 30px;
-			&-btn {
-				width: 100%;
-				height: 100%;
-				color: white;
-				background-color: var(--dorado);
-				font-size: 1.25em;
-				font-weight: 700;
-				border-style: none;
-				&:hover {
-					filter: contrast(140%);
+		&__form {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(5, 1fr) 2.5fr;
+			width: 100%;
+			height: 31.875rem;
+			margin-top: 80px;
+			gap: 1.5rem;
+			text-align: center;
+			justify-items: center;
+			&-input {
+				width: 80%;
+				text-align: center;
+				grid-row: auto;
+				position: relative;
+				/* border: 3px solid red; */
+				input {
+					border: 3px solid var(--gris);
+					color: white;
+					background-color: var(--azul-oscuro);
+					width: 80%;
+					height: 100%;
+					outline: 0;
+					padding: 0 2.625rem 0 .625rem;
+					&::placeholder {
+						color: white;
+					}
+					&[type="date"]::-webkit-calendar-picker-indicator {
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+						color: transparent;
+						background: 0 0;
+						margin: 0;
+						opacity: 0;
+						pointer-events: auto;
+					}
+					&[type="time"]::-webkit-calendar-picker-indicator {
+						width: 100%;
+						height: 100%;
+						position: absolute;
+						top: 0;
+						left: 0;
+						color: transparent;
+						background: 0 0;
+						margin: 0;
+						opacity: 0;
+						pointer-events: auto;
+					}
+				}
+				textarea {
+					border: 3px solid var(--gris);
+					color: white;
+					background-color: var(--azul-oscuro);
+					width: 80%;
+					height: 100%;
+					padding: .4375rem 2.625rem 0 .625rem;
+					outline: 0;
+					&::placeholder {
+						color: white;
+					}
+				}
+				&-icon {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-25%);
+					right: 7%;
+					&-area {
+						position: absolute;
+						top: 10%;
+						right: 7%;
+					}
+				}
+			}
+			&-submit {
+				width: 12.5rem;
+				height: 3.125rem;
+				margin-top: 1.875rem;
+				&-btn {
+					width: 100%;
+					height: 100%;
+					color: white;
+					background-color: var(--dorado);
+					font-size: 1.25em;
+					font-weight: 700;
+					border-style: none;
+					&:hover {
+						filter: contrast(140%);
+					}
 				}
 			}
 		}
 	}
 }
+
+
+/* *****************************
+___________DESKTOP_____________
+***************************** */
+
+@include media-up(desktop) {
+	.secForm {
+		&__form {
+			width: 60%;
+			height: 25.875rem;
+			text-align: start;
+			grid-template-columns: repeat(6, 1fr);
+			grid-template-rows: repeat(2, 1fr) 2.5fr;
+			&-input:nth-child(1) {
+				grid-area: 1 / 1 / 2 / 4;
+				width: 100%;
+				padding: inherit;
+			}
+			&-input:nth-child(2) {
+				grid-area: 1 / 4 / 2 / 7;
+				width: 100%;
+				padding: inherit;
+			}
+			&-input:nth-child(3) {
+				grid-area: 2 / 1 / 3 / 3;
+				width: 100%;
+				padding: inherit;
+			}
+			&-input:nth-child(4) {
+				grid-area: 2 / 3 / 3 / 5;
+				width: 100%;
+				padding: inherit;
+			}
+			&-input:nth-child(5) {
+				grid-area: 2 / 5 / 3 / 7;
+				width: 100%;
+				padding: inherit;
+			}
+			&-input:nth-child(6) {
+				grid-area: 3 / 1 / 4 / 7;
+				width: 100%;
+				padding: inherit;
+			}
+			input {
+				padding: 0 10% 0 4%;
+				width: 86%;
+				font-size: 1em;
+			}
+			textarea {
+				width: 88%;
+				padding: 2% 10% 0 2%;
+				font-size: 1em;
+			}
+			&-input {
+				&-icon {
+					right: 3%;
+					&-area {
+						right: 1.5%;
+					}
+				}
+			}
+		}
+	}
+}
+

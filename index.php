@@ -42,9 +42,13 @@
             </article>
         </div>
         <div class="secInitial__media">
-            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/facebook.php') ?></a>
+            <a href="" class="secInitial__media-icon">
+                <?php require('./assets/social_icons/facebook.php') ?>
+            </a>
             <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/twitter.php') ?></a>
-            <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/instagram.php') ?></a>
+            <a href="" class="secInitial__media-icon">
+                <?php require('./assets/social_icons/instagram.php') ?>
+            </a>
             <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/linkedin.php') ?></a>
         </div>
     </section>
@@ -56,6 +60,9 @@
         </article>
         <p class="secWelcome__text">our barber shop always offers professional quality and we are ready to deal with
             your highest expecations</p>
+        <p class="secWelcome__text-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem
+            dicta eum, veniam placeat cumque? Quae similique voluptatibus enim debitis, neque esse nostrum numquam, quo
+            mollitia suscipit reiciendis distinctio hic.</p>
     </section>
 
     <section class="secServices">
@@ -96,27 +103,53 @@
     <section class="secPrices">
         <h1 class="secPrices__tittle">Prices List</h1>
         <div class="secPrices__container">
-            <article class="secPrices__container-price">
-                <p>Cut Service .................................</p>
-                <p class="golden">29.900</p>
-            </article>
-            <article class="secPrices__container-price">
-                <p>Cut Service .................................</p>
-                <p class="golden">29.900</p>
-            </article>
-            <article class="secPrices__container-price">
-                <p>Cut Service .................................</p>
-                <p class="golden">29.900</p>
-            </article>
-            <article class="secPrices__container-price">
-                <p>Cut Service .................................</p>
-                <p class="golden">29.900</p>
-            </article>
-            <article class="secPrices__container-price">
-                <p>Cut Service .................................</p>
-                <p class="golden">29.900</p>
-            </article>
+            <section>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+            </section>
+
+            <section class="hidden">
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+                <article class="secPrices__container-price">
+                    <p>Cut Service .................................</p>
+                    <p class="golden">29.900</p>
+                </article>
+            </section>
         </div>
+
         <button class="secPrices__btn">ALL PRICES</button>
     </section>
 

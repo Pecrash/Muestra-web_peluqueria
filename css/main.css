@@ -340,7 +340,7 @@ ___________TABLET_____________
     align-self: flex-end;
   }
   .secServices__content {
-    width: 24.7rem;
+    width: 24.5rem;
   }
   .secPhrase__tittle {
     font-size: 1.875em;
@@ -413,6 +413,9 @@ ___________DESKTOP_____________
   .secServices__content {
     width: 46.875rem;
     gap: 40px;
+  }
+  .secServices__content-card img {
+    width: 100%;
   }
   .secServices__arrow {
     display: none;

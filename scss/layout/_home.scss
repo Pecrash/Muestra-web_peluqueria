@@ -336,7 +336,7 @@ ___________TABLET_____________
 
 	.secServices {
 		&__content {
-			width: 24.7rem;
+			width: 24.5rem;
 		}
 	}
 
@@ -423,6 +423,11 @@ ___________DESKTOP_____________
 		&__content {
 			width: 46.875rem;
 			gap: 40px;
+			&-card {
+				img {
+					width: 100%;
+				}
+			}
 		}
 		&__arrow {
 			display: none;

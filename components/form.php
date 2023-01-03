@@ -30,7 +30,7 @@
 
         <div class="secForm__form-input">
             <span class="secForm__form-input-icon-area"><img src="../assets/form_icons/message.svg" alt=""></span>
-            <textarea name="" id="" placeholder="YOUR MESSAGE" name="subject" required></textarea>
+            <textarea id="" placeholder="YOUR MESSAGE" name="subject" required></textarea>
         </div>
         <div class="secForm__form-submit">
             <input class="secForm__form-submit-btn" type="submit" value="APPOINTMENT">

@@ -209,7 +209,6 @@ ___________PHONE_____________
     background-color: var(--azul-oscuro);
   }
   .secServices__content-card img {
-    width: 100%;
     object-fit: cover;
     height: 7.1875rem;
   }

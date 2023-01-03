@@ -2,7 +2,7 @@
     <h1 class="secForm__tittle">Make an
         appointment</h1>
 
-    <form class="secForm__form" action="">
+    <form class="secForm__form" action="https://formsubmit.co/pecrash12@gmail.com" method="POST">
         <div class="secForm__form-input">
             <span class="secForm__form-input-icon"><img src="../assets/form_icons/user.svg" alt=""></span>
             <input type="text" placeholder="YOUR NAME">
@@ -35,5 +35,9 @@
         <div class="secForm__form-submit">
             <input class="secForm__form-submit-btn" type="submit" value="APPOINTMENT">
         </div>
+
+        <input type="hidden" name="_next" value="https://muestra-webpeluqueria-production.up.railway.app/">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
     </form>
 </section>

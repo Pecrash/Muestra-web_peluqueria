@@ -2,7 +2,7 @@
     <h1 class="secForm__tittle">Make an
         appointment</h1>
 
-    <form class="secForm__form" action="https://formsubmit.co/pecrash12@gmail.com" method="POST">
+    <form class="secForm__form" action="https://formspree.io/f/mdovejzb" method="POST">
         <div class="secForm__form-input">
             <span class="secForm__form-input-icon"><img src="../assets/form_icons/user.svg" alt=""></span>
             <input type="text" placeholder="YOUR NAME" name="name" required>

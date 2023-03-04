@@ -42,11 +42,11 @@
             </article>
         </div>
         <div class="secInitial__media">
-            <a href="" class="secInitial__media-icon">
+            <a href="https://www.facebook.com/profile.php?id=100090796002084" target="_blank" class="secInitial__media-icon">
                 <?php require('./assets/social_icons/facebook.php') ?>
             </a>
             <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/twitter.php') ?></a>
-            <a href="" class="secInitial__media-icon">
+            <a href="https://www.instagram.com/pecrash_dev/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="secInitial__media-icon">
                 <?php require('./assets/social_icons/instagram.php') ?>
             </a>
             <a href="" class="secInitial__media-icon"><?php require('./assets/social_icons/linkedin.php') ?></a>
